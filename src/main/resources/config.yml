@@ -1,0 +1,15 @@
+mongo:
+  host: 'localhost'
+  port: 27017
+  database: 'LitePortals'
+  collection: 'LitePortals'
+
+# the url that is used to fetch player uuids
+uuidUrl: 'https://api.mojang.com/users/profiles/minecraft/{0}'
+
+# the url that is used to fetch player names
+nameUrl: 'https://api.mojang.com/user/profiles/{0}/names'
+
+# the amount of portals a player can have.
+# any value under 0 = unlimited
+portalLimit: 20

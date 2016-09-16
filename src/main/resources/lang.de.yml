@@ -1,0 +1,63 @@
+texts:
+  prefix: '&7[&8P&7]'
+  error:
+    locked: '&c Dieses Portal wurde von seinem Eigner gesichert. Du kannst es nicht nutzen!'
+    nameAlreadyInUse: '&c Du besitzt bereits ein Portal mit diesem Namen!'
+    noDoublePortals: '&c An dieser Position existiert bereits ein Portal. Entferne es bevor du ein neues erstellst!'
+    noPermission: '&c Du hast keine ausreichende Berechtigung!'
+    noPortalBuilt: '&c Du hast in letzter Zeit kein Portal errichtet!'
+    notStandingInAPortal: '&c Du stehst in keinem Portal!'
+    portalLimit: '&c Du kannst nicht mehr als {0} Portale gleichzeitig besitzen!'
+    portalNotLinked: '&c Dieses Portal ist mit keinem anderen verbunden. Du wirst nicht teleportiert!'
+    targetLocked: '&c Das Zielportal wurde von seinem Eigner gesichert. Du kannst es nicht nutzen!'
+    unknownCommand: '&c {0} ist kein Befehl!'
+    unknownPlayer: '&c Der angegebene Spieler existiert nicht!'
+    unknownPortal: '&c Es existiert kein Portal mit dem Namen {0}!'
+    unregisteredPortal: '&c Du stehst in einem noch nicht gesicherten Portal. Sichere es mit /portal create <Name>!'
+    worldDisabled: '&c Auf dieser Welt kann derzeit kein Portal errichtet werden!'
+    wrongUsage: '&c Falsche Eingabe! Probiere {0}!'
+  info:
+    create:
+      created: '&b Du hast das Portal &3{0}&b gesichert. Gib ihm mit &3/portal link <Portal> <Ziel-Portal>&b ein Ziel'
+    disable:
+      disabled: '&b Alle Portale auf der Welt &3{0}&b wurden deaktiviert'
+    enable:
+      enabled: '&b Alle Portale auf der Welt &3{0}&b wurden aktiviert'
+    link:
+      linked: '&b Du hast Portal &3{0}&b an Portal &3{1}&b gebunden'
+    list:
+      header: '&b Folgende Portale wurden gefunden: (&cx&b = gesichert)'
+      element: '&8 - &3{0}&b {1}{2}&3-> &b{3}{4}&3{5}'
+      none: '&c-'
+    lock:
+      locked: '&b Du hast das Portal gesichert. Du kannst es nun als Einziger nutzen'
+      symbol:
+        locked: '&cx '
+        notLocked: ' '
+    help:
+      header: '&b Folgende Commands kannst du nutzen: '
+      user:
+        create: '&8 - &bcreate <Name>: &3Erstelle ein Portal mit einem Namen'
+        help: '&8 - &bhelp: &3Zeige die Liste aller Befehle an'
+        info: '&8 - &binfo <Name>: &3Zeige Information zu einem Portal an'
+        link: '&8 - &blink <1> <2>: &3Setze das Ziel von &bPortal&b1&3 auf &bPortal 2&3'
+        list: '&8 - &blist: &3Zeige Liste aller deiner Portale und Verlinkungen'
+        lock: '&8 - &block <Name>: &3Verbiete es Spielern das Portal zu nutzen'
+        unlock: '&8 - &bunlock <Name>: &3Entsichere ein Portal'
+      headerMod: '&b Teamler-Befehle: '
+      mod:
+        reload: '&8 - &breload: &3Lade alle Portale und Configs neu'
+        disable: '&8 - &bdisable <Welt>: &3Deaktiviert alle Portale einer Welt'
+        enable: '&8 - &benable <Welt>: &3Aktiviert alle Portale einer Welt'
+    info:
+      element: '&3 Portal: &b{0}{1}&3[&b{2}: &b{3}&3,&b{4}&3,&b{5}&3] (&b{6}&3) &b{7}&3 -> &b{8}'
+      none: '&c-'
+    portal:
+      built: '&b Du hast ein Portal errichtet. Gib &3/portal create <name>&b ein, um es zu speichern'
+      broken: '&b Du hast dein Portal abgerissen'
+      brokenStructure: '&b Du hast ein unfertiges Portal entfernt'
+    reload:
+      configReloaded: '&b Konfiguration erfolgreich geladen'
+      portalsReloaded: '&3 {0} &bPortale erfolgreich geladen'
+    unlock:
+      unlocked: '&b Du hast das Portal entsichert. Jeder Spieler kann es nun nutzen'
